@@ -1,0 +1,10 @@
+header {
+    font-family: 'Work Sans';
+    text-align: right;
+    background-image: url(../styles/images/banner/banner3.png);
+    background-size: 1600px 800 px;
+}
+
+.header-title {
+    margin-right: 525px 228px;
+}

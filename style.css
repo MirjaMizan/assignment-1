@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans';
+
+}
+
+/* hedear section */
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(styles/images/banner/banner3.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.header {
+    text-align: right;
+    color: #FFFFFF;
+    margin: 0 200px;
+    align-items: center;
+}
+
+.heading {
+    font-weight: 700;
+    font-size: 65px;
+}
+
+.header p {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/* main styles ami parsina r */
+.main {
+    display: flex;
+    margin: 0 200px;
+    align-items: center;
+}
+
+.main p {
+    color: #444343;
+}
+
+.main ul {
+    color: #444343;
+}
