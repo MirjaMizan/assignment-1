@@ -32,16 +32,102 @@
 }
 
 /* main styles ami parsina r */
-.main {
+section {
     display: flex;
-    margin: 0 200px;
+    margin: 0 auto;
     align-items: center;
 }
 
-.main p {
+.section-description {
+    margin-top: 130;
     color: #444343;
 }
 
-.main ul {
+section ul {
     color: #444343;
+}
+
+/* who i am styles */
+.my-plan {
+    margin-top: 130px;
+    text-align: center;
+}
+
+.section-title {
+    text-align: center;
+}
+
+.skills-container {
+    display: flex;
+    gap: 80px;
+}
+
+.skill-title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.skill-description {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+    text-align: center;
+}
+
+/* gradient section */
+.gradient {
+    background-image: url(styles/images/watch.png);
+    background-position: right;
+    min-height: 100%;
+    border-radius: 8px;
+    width: 1140px;
+    height: 300px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin: 30px;
+}
+
+.gradient-description {
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-top: 30px;
+}
+/* footer styles */
+footer{
+    background-color: #151414;
+    background-size: 0 auto;
+    background-position: center;
+    display: flex;
+
+}
+.details{
+    color: #F8F8F8;
+}
+.sub-title{
+    color: #F8F8F8;
+    margin-bottom: 30px;
+}
+.kom-bujhi{
+  margin-bottom: 30px;
+}
+.footer-description{
+    margin: 130px 230px 230px;
+}
+.future{
+    margin-bottom: 20px;
+}
+.email{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.phone{
+    margin-bottom: 40px;
+}
+.subscribe{
+    margin: 130px 230px 230px;
 }
